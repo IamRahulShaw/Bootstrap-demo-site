@@ -1,0 +1,11 @@
+@mixin navItem ($background-color){
+    border: none;
+    border-radius: 1.1rem;
+    background-color: $background-color;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 6rem;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+}
